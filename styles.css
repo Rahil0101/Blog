@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-color: black;
+    height: 80px;
+}
+header .logo{
+    float: left;
+    height: inherit;
+}
+h1.logo-text{
+    margin: 0px;
+    padding: 0px;
+    height:inherit;
+    float: right;
+    padding-left: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+header ul{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    height: inherit;
+}
+header ul li{
+    float: left;
+    height: inherit;
+}
+header ul li a{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 40px;
+    font-size: 1em;
+    text-decoration: none;
+}
+header ul li a:hover{
+    background: rgb(47, 47, 48);
+    transition: 0.5s;
+}
+header *{
+    color: white;
+}
