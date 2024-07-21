@@ -7,12 +7,15 @@ body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 header{
-    background-color: black;
+    background: black;
     height: 80px;
 }
 header .logo{
     float: left;
     height: inherit;
+}
+header .menu-toggle{
+    display: none;
 }
 h1.logo-text{
     margin: 0px;
@@ -51,4 +54,20 @@ header ul li a:hover{
 }
 header *{
     color: white;
+}
+
+@media only screen and (max-width: 950px){
+    header ul {
+        width: 100%;
+    }
+    header ul li{
+        width: 100%;
+        background-color: black;
+    }
+    header .menu-toggle{
+        display: block;
+        border: solid red;
+    }
+
+
 }
